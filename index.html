@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutbolMania</title>
+
+    <link rel="stylesheet" href="reset.css">
+
+    <style>
+        body {
+            font-size: 14px;
+            background-image: url(img/fondo_estadio.jpg);
+
+            background-repeat: no-repeat;   /* Evita que la imagen se repita */          
+            background-position: center; /* Centra la imagen en la página */            
+            background-size: cover; /* Asegura que la imagen cubra toda la página */
+            
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            color: white;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 1%;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+
+        header p {
+            padding-top: 1%;
+            font-size: 1.2rem;
+        }
+
+        main {
+            /* background-color: rgb(140, 182, 229); */
+            background: linear-gradient(rgb(126, 173, 226), rgb(127, 172, 223) );
+            flex: 1;
+            padding: 1%;
+            
+        }
+
+        main .contenido-imagen{                        
+            padding-top: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main img {
+            width: 30%;
+        }
+
+        main .contenido-texto{
+            text-align: center;
+            padding: 2%;            
+        }
+
+        main .contenido-texto h2{
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding-bottom: 1%;
+        }
+
+        main .contenido-texto p{
+            text-wrap: balance;
+            padding-bottom: 2%;
+            font-size: 1rem;
+        }
+
+        main .contenido-texto a{
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        footer{
+            background-color: rgb(67, 122, 167);
+            text-align: center;
+            color: white;
+            padding: 2%;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>FutbolMania</h1>
+        <p>¡Encuentra todo lo que necesitas para mantenerte activo!</p>
+    </header>
+    <main>
+        <div class="contenido-imagen">
+            <img src="img/messi_ronaldo.webp" alt="">
+        </div>
+        <div class="contenido-texto">
+            <h2>Fútbol</h2>
+        
+            <p>Bienvenidos a FútbolManía, tu destino definitivo para todas las cosas relacionadas con el fútbol. Desde
+                las últimas noticias y resultados de partidos hasta análisis en profundidad y perfiles de jugadores, lo
+                tenemos todo.</p>
+    
+            <a href="#">Ver más</a>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 FutbolMania
+    </footer>
+
+
+</body>
+
+</html>
